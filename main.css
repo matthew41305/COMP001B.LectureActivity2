@@ -1,0 +1,40 @@
+/* Margin and Padding values reset */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    background-color:aqua; /*aqua*/
+    color: white;
+    padding: 30px; /*padding formed inside header*/
+    margin: 15px; /* Margin outside of the header */
+}
+
+/* Stlying for paragraph elements */
+p {
+    border: 2px solid #F0562B; /* orangish color */
+    padding: 10px; /*Padding for the inside of the paragraph*/
+    margin: 10px 0; /*Example of a vertical margin*/
+    width: 300px /*aka absolute width*/
+
+
+}
+/*Class for paragraph using auto-margining*/
+
+.auto-margin {
+    p {
+        width: 400px; padding: 2em;}
+    .margin-auto {
+        margin: 0 auto; }
+}
+
+
+/* Class for paragraph aligned to right*/
+.right-aligned {
+    margin:50px /*right aligned margin*/
+}
+
